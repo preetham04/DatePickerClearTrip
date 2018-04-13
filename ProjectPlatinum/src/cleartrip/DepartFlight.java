@@ -10,7 +10,7 @@ public class DepartFlight {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		//invoking the browser
+		//invoking the browser using Chromedriver
 		System.setProperty("webdriver.chrome.driver", "ChromeDriver.exe");
 
 		ChromeDriver driver = new ChromeDriver();
